@@ -1,13 +1,13 @@
 # See: https://lando.dev/
 
-name: slidesstarter
+name: blockchain
 
 # See: https://docs.lando.dev/core/v3/proxy.html
 proxy:
   appserver:
-    - web.slidesstarter.lndo.site
+    - web.blockchain.lndo.site
   node:
-    - node.slidesstarter.lndo.site
+    - node.blockchain.lndo.site
 
 # See: https://docs.lando.dev/core/v3/services.html
 services:
